@@ -1,0 +1,24 @@
+/* styling ids should be done here */
+#dataSection{
+    padding:10% 5%;
+}
+#projectSection{
+    padding:7% 5%;
+}
+
+/* styling of classes starts here */
+.alternate{
+    background-color: rgb(228, 225, 35);
+}
+.container-fluid{
+    padding:0;
+}
+.navbar-brand .img-fluid{
+    width:auto;
+    max-height:70px;
+}
+
+/* styling of tags in general begins here */
+p{
+    padding: 2%;
+}
