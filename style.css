@@ -1,6 +1,7 @@
 /* styling ids should be done here */
 #dataSection{
     padding:10% 5%;
+    padding-top: 15%;
 }
 #projectSection{
     padding:7% 5%;
@@ -8,7 +9,7 @@
 
 /* styling of classes starts here */
 .alternate{
-    background-color: rgb(228, 225, 35);
+    background-color: rgb(247, 244, 101);
 }
 .container-fluid{
     padding:0;
@@ -17,8 +18,32 @@
     width:auto;
     max-height:70px;
 }
+.card-img-top{
+    height:15rem;
+    border-radius: 50%;
+    margin:auto;
+    width:15rem;
+}
+.btn{
+    color:black;
+}
+.card-title{
+    font-size:1.7rem;
+    font-family: 'Balsamiq Sans', cursive;
+}
+.fade {
+    opacity: 1;
+  }
 
 /* styling of tags in general begins here */
 p{
     padding: 2%;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+    background-image: url("https://images.unsplash.com/photo-1469474968028-56623f02e42e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60");
+    background-size:cover;
+    background-repeat:no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
 }
