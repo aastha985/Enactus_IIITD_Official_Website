@@ -18,7 +18,7 @@
     width:auto;
     max-height:70px;
 }
-.card-img-top{
+.card-img-top-custom{
     height:15rem;
     border-radius: 50%;
     margin:auto;
@@ -27,7 +27,7 @@
 .btn{
     color:black;
 }
-.card-title{
+.card-title-custom{
     font-size:1.7rem;
     font-family: 'Balsamiq Sans', cursive;
 }
