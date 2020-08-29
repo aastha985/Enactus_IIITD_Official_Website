@@ -6,12 +6,15 @@
 }
 #projectSection{
     padding:7% 5%;
+    background-image: url("https://images.unsplash.com/photo-1584098115468-0f5307581d31?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60");
 }
 #mentorSection {
     padding:7% 5%;
 }
 #sponsorSection {
     padding:7% 5%;
+    color:white;
+    background:url("https://images.unsplash.com/photo-1523112784166-c04db3a3bb7c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60");
 }
 #mainHead{
     font-size:4rem;
@@ -58,7 +61,6 @@
     border-bottom: 2px solid #050d5373; 
 }
 .alternate{
-    background-image: url("https://images.unsplash.com/photo-1584098115468-0f5307581d31?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60");
 }
 .container-fluid{
     padding:0;
