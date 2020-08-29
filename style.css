@@ -87,9 +87,6 @@
 .fade {
     opacity: 1;
 }
-.textFade {
-    color: rgb(221, 217, 217);
-}
 .jumbotron{
     height:100vh;
     color:white;
