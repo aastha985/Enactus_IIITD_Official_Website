@@ -23,7 +23,6 @@
     overflow-x: hidden; 
     margin-top: 20%;
     padding-top: 2%;
-    /* background-color: yellowgreen; */
     border: thin solid black;
   }
 .sidebarIcon {
@@ -34,10 +33,15 @@
     margin-right: 45%;
     border-bottom: 2px solid #e67e22; 
 }
+.alternateSectionBorder {
+    margin-left: 47%;
+    margin-right: 47%;
+    border-bottom: 2px solid #050d5373; 
+}
 .alternate{
     background-color: rgb(247, 244, 101);
     /* background-image: url("./images/enactus-background-2.jpg"); */
-    /* background-image: linear-gradient(rgb(235, 215, 41), rgb(190, 176, 41)); */
+    background-image: linear-gradient(#bdaa1a, #efc50f, #bda91a);
 }
 .container-fluid{
     padding:0;
@@ -73,10 +77,13 @@
 /* styling of tags in general begins here */
 p{
     padding: 2%;
+
 }
 body{
     font-family: 'Roboto', sans-serif;
-    background-image: url("https://images.unsplash.com/photo-1469474968028-56623f02e42e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60");
+    background-image: linear-gradient(to bottom, rgba(96, 97, 102, 0.52), rgba(0, 0, 0, 0.73)), url("https://images.unsplash.com/photo-1469474968028-56623f02e42e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60");
+    /* background-image: url("https://images.unsplash.com/photo-1469474968028-56623f02e42e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60"); */
+
     /* background-image: url("./images/mitra.jpg"); */
     background-size:cover;
     background-repeat:no-repeat;
