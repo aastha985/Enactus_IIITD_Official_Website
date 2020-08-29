@@ -10,6 +10,25 @@
 #mentorSection {
     padding:7% 5%;
 }
+#sponsorSection {
+    padding:7% 5%;
+}
+#mainHead{
+    font-size:4rem;
+    margin-top:15%;
+    border-bottom:2px solid rgb(211, 208, 208);
+}
+#tag{
+    margin-top:-8.5%;
+    width:100%;
+    align-self: start;
+    font-size: 2rem;
+}
+#aboutImage{
+    width:80%;
+    margin:auto;
+}
+
 
 /* styling of classes starts here */
 .sidenav {
@@ -39,16 +58,14 @@
     border-bottom: 2px solid #050d5373; 
 }
 .alternate{
-    background-color: rgb(247, 244, 101);
-    /* background-image: url("./images/enactus-background-2.jpg"); */
-    background-image: linear-gradient(#bdaa1a, #efc50f, #bda91a);
+    background-image: url("https://images.unsplash.com/photo-1584098115468-0f5307581d31?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60");
 }
 .container-fluid{
     padding:0;
 }
 .navbar-brand .img-fluid{
     width:auto;
-    max-height:70px;
+    max-height:50px;
 }
 .card-img-top-custom{
     height:15rem;
@@ -73,6 +90,24 @@
 .textFade {
     color: rgb(221, 217, 217);
 }
+.jumbotron{
+    height:100vh;
+    color:white;
+    background-image: url("https://images.unsplash.com/photo-1587218954366-73e81322a280?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60");
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding:0;
+    background-position:center;
+}
+.gradient-div{
+    background-color: rgba(0, 0, 0, 0.4);
+    height:100%;
+    width:100%;
+}
+.d-flex{
+    flex-wrap: wrap;
+}
+
 
 /* styling of tags in general begins here */
 p{
@@ -80,13 +115,13 @@ p{
 
 }
 body{
-    font-family: 'Roboto', sans-serif;
-    background-image: linear-gradient(to bottom, rgba(96, 97, 102, 0.52), rgba(0, 0, 0, 0.73)), url("https://images.unsplash.com/photo-1469474968028-56623f02e42e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60");
-    /* background-image: url("https://images.unsplash.com/photo-1469474968028-56623f02e42e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60"); */
-
-    /* background-image: url("./images/mitra.jpg"); */
-    background-size:cover;
-    background-repeat:no-repeat;
-    background-position: center center;
-    background-attachment: fixed;
+    font-family: 'Poppins', sans-serif;
 }
+span{
+    color:yellow;
+}
+html{
+    scroll-behavior: smooth;
+}
+
+/* https://images.unsplash.com/photo-1584098115468-0f5307581d31?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60 */

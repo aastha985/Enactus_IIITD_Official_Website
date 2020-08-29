@@ -8,18 +8,21 @@
 
     <!-- Google Fonts -->
     <link href="https://fonts.googleapis.com/css2?family=Balsamiq+Sans&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link href="https://fonts.googleapis.com/css2?family=Nunito&display=swap" rel="stylesheet">
-
+    <link href="https://fonts.googleapis.com/css2?family=Strait&display=swap" rel="stylesheet">
+    
+    
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
     <title>Enactus IIITD</title>
   </head>
   <body>
-      <nav class="navbar navbar-expand-lg navbar-light fixed-top" >
+      <nav class="navbar navbar-expand-lg navbar-dark fixed-top" >
         <a href="#" class="navbar-brand"><img src="images/logo.jpg" alt="Enactuslogo" class="img-fluid"></a>
         <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarCollapse">
             <span class="navbar-toggler-icon"></span>
@@ -27,19 +30,16 @@
         <div id="navbarCollapse" class="navbar-collapse collapse">
           <ul class="navbar-nav justify-content-between ml-auto pr-5 pt-3">
               <li class="nav-item active">
-                    <a class="nav-link px-3" href="#">Home <span class="sr-only">(current)</span></a>
+                    <a class="nav-link px-3" href="#dataSection">About Us <span class="sr-only">(current)</span></a>
               </li>
               <li class="nav-item active">
-                    <a class="nav-link px-3" href="#projects">Projects<span class="sr-only">(current)</span></a>
+                    <a class="nav-link px-3" href="#projectSection">Projects<span class="sr-only">(current)</span></a>
               </li>
               <li class="nav-item active">
-                    <a class="nav-link px-3" href="#mentors">Mentors<span class="sr-only">(current)</span></a>
+                    <a class="nav-link px-3" href="#mentorSection">Mentors<span class="sr-only">(current)</span></a>
               </li>
               <li class="nav-item active">
-                    <a class="nav-link px-3" href="#sponsors">Sponsors<span class="sr-only">(current)</span></a>
-              </li>
-              <li class="nav-item active">
-                    <a class="nav-link px-3" href="#blogs">Blogs<span class="sr-only">(current)</span></a>
+                    <a class="nav-link px-3" href="#sponsorSection">Sponsors<span class="sr-only">(current)</span></a>
               </li>
               <li class="nav-item active">
                     <a class="nav-link px-3" href="#email-us">Contact Us<span class="sr-only">(current)</span></a>
@@ -55,9 +55,23 @@
       </div> -->
       <!-- Home Page -->
       <div class="container-fluid text-center">
+            <div class="jumbotron fade">
+                  <div class="gradient-div d-flex align-items-center justify-content-center">
+                        <h1 id="mainHead">Welcome to <span>Enactus IIITD</span></h1>
+                        <p id="tag">
+                        </p>
+                  </div>
+            </div>
             <div id="dataSection" class="fade">
-                  <h1>What Is Enactus IIITD</h1>
-                  <p style="font-size: Nunito; font-family: Archivo;">We are enabling sustainable development through Technology and Innovation. Enactus IIITD is on a mission to create future ready leaders, who can deal with any situation to make better and sustainable decisions. Developing a sustainable world alongside creative leaders for tomorrow who realize their social responsibility towards the society.</p>
+                  <div class="row">
+                        <div class="col-12 col-md-5">
+                              <img src="images/aboutus.png" alt="" id="aboutImage">
+                        </div>
+                        <div class="col-12 col-md-7 align-self-center">
+                              <h1>About Us</h1>
+                              <p style="font-size: Nunito; font-family: Archivo;">We are enabling sustainable development through Technology and Innovation. Enactus IIITD is on a mission to create future ready leaders, who can deal with any situation to make better and sustainable decisions. Developing a sustainable world alongside creative leaders for tomorrow who realize their social responsibility towards the society.</p>
+                        </div>
+                  </div>
             </div>
             <!-- Project Section -->
             <div id="projectSection" class="alternate fade">
@@ -139,50 +153,54 @@
                   </div>
             </div>
             <!-- Sponsors Section -->
-            <div id="mentorSection" class="alternate fade">
-                  <h2>Our Sponsors</h2>
-                  <div class="alternateSectionBorder"></div>
-                  <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officia corrupti a harum eligendi ratione, earum laudantium, labore velit repellendus eos quis deserunt, nam necessitatibus facilis asperiores delectus cupiditate rerum veniam.</p>
+            <div id="sponsorSection" class="alternate fade">
                   <div class="row">
-                        <div class="col-12 col-md-4">
-                              <div>
-                                    <img src="images/mitra.jpg" class="card-img-top-custom" alt="...">
-                                    <div class="card-body-custom">
-                                          <h5 class="card-title-custom">Sponsor A</h5>
-                                          <p class="card-text-custom"></p>
-                                          <!-- <a href="#" class="btn btn-outline-success">Learn more</a> -->
+                        <div class="col-12 col-md-6 align-self-center">
+                              <h2>Our Sponsors</h2>
+                              <div class="alternateSectionBorder"></div>
+                              <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officia corrupti a harum eligendi ratione, earum laudantium, labore velit repellendus eos quis deserunt, nam necessitatibus facilis asperiores delectus cupiditate rerum veniam.</p>
+                        </div>
+                        <div class="col-md-6 col-12">
+                              <div class="row">
+                                    <div class="col-12 col-md-6">
+                                          <div>
+                                                <img src="images/mitra.jpg" class="card-img-top" alt="..." style="height:150px; width:150px;">
+                                                <div class="card-body-custom">
+                                                      <p class="card-text-custom"></p>
+                                                      <!-- <a href="#" class="btn btn-outline-success">Learn more</a> -->
+                                                </div>
+                                          </div>
+                                    </div>
+                                    <div class="col-12 col-md-6">
+                                          <div>
+                                                <img src="images/mitra.jpg" class="card-img-top" alt="..." style="height:150px; width:150px;">
+                                                <div class="card-body-custom">
+                                                      <p class="card-text-custom"></p>
+                                                      <!-- <a href="#" class="btn btn-outline-primary">Go somewhere</a> -->
+                                                </div>
+                                          </div>
+                                    </div>
+                                    <div class="col-12 col-md-6">
+                                          <div>
+                                                <img src="images/mitra.jpg" class="card-img-top" alt="..." style="height:150px; width:150px;">
+                                                <div class="card-body-custom">
+                                                      <p class="card-text-custom"></p>
+                                                      <!-- <a href="#" class="btn btn-outline-primary">Go somewhere</a> -->
+                                                </div>
+                                          </div>
                                     </div>
                               </div>
                         </div>
-                        <div class="col-12 col-md-4">
-                              <div>
-                                    <img src="images/mitra.jpg" class="card-img-top-custom" alt="...">
-                                    <div class="card-body-custom">
-                                          <h5 class="card-title-custom">Sponsor B</h5>
-                                          <p class="card-text-custom"></p>
-                                          <!-- <a href="#" class="btn btn-outline-primary">Go somewhere</a> -->
-                                    </div>
-                              </div>
-                        </div>
-                        <div class="col-12 col-md-4">
-                              <div>
-                                    <img src="images/mitra.jpg" class="card-img-top-custom" alt="...">
-                                    <div class="card-body-custom">
-                                          <h5 class="card-title-custom">Sponsor C</h5>
-                                          <p class="card-text-custom"></p>
-                                          <!-- <a href="#" class="btn btn-outline-primary">Go somewhere</a> -->
-                                    </div>
-                              </div>
                         </div>
                   </div>
             </div>
-      </div>
-      
-    <!-- Optional JavaScript -->
+                  
+                  <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+    <script src="typing.js"></script>
     <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
     <script>
       $(window).on("load",function() {
@@ -200,6 +218,12 @@
                         }
                   }
                   });
+                  if($(this).scrollTop()>$(this).innerHeight()-50){
+                        $(".navbar").css("background-color","rgb(50,50,50)");
+                  }
+                  else{
+                        $(".navbar").css("background-color","rgba(0,0,0,0)");
+                  }
             }).scroll(); //invoke scroll-handler on page-load
             });
     </script>
