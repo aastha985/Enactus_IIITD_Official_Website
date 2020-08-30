@@ -66,7 +66,7 @@
             <div id="dataSection" class="fade">
                   <div class="row">
                         <div class="col-12 col-md-5">
-                              <img src="images/aboutus.png" alt="" id="aboutImage">
+                              <img src="images/aboutus.png" alt="" class="aboutImage">
                         </div>
                         <div class="col-12 col-md-7 align-self-center">
                               <h1>Our Vision</h1>
@@ -94,7 +94,7 @@
                               <div>
                                     <img src="images/mitra.jpg" class="card-img-top-custom" alt="...">
                                     <div class="card-body-custom">
-                                          <h5 class="card-title-custom">Project Calling</h5>
+                                          <h5 class="card-title-custom">Project Hidayat</h5>
                                           <p class="card-text-custom"></p>
                                           <!-- <a href="#" class="btn btn-outline-primary">Go somewhere</a> -->
                                     </div>
@@ -198,35 +198,40 @@
                   <div id="contactSection" class="fade">
                         <h2>We're happy to hear from you</h2>
                         <div class="sectionBorder"></div>
-                        <div class="col-12" >
-                              <form id="contact-form" class=" w-50 card-mentor formComponent">
-                                  <div class="input-group input-group-lg mb-3">
-                                      <div class="input-group-prepend">
-                                          <span class="input-group-text">
-                                              <i class="fas fa-user"></i>
-                                          </span>
-                                      </div>
-                                      <input type="text" class="form-control" placeholder="Name" name="name" id="Username" required>
-                                  </div>
-                                  <div class="input-group input-group-lg mb-3">
-                                      <div class="input-group-prepend">
-                                          <span class="input-group-text">
-                                              <i class="fas fa-envelope"></i>
-                                          </span>
-                                      </div>
-                                      <input name="email" type="text" class="form-control" col="5" placeholder="Email Address" id="Useremail" required>
-                                  </div>
-                                  <div class="input-group input-group-lg mb-3">
-                                      <div class="input-group-prepend">
-                                          <span class="input-group-text">
-                                              <i class="fas fa-pencil-alt"></i>
-                                          </span>
-                                      </div>
-                                      <textarea class="form-control" placeholder="Message" id="message" name="message" rows="5" required></textarea>
-                                  </div>
-                                  
-                                  <input type="submit" class="btn btn-success btn-block btn-lg" name="submit" value="Submit" id="submit">
-                              </form>
+                        <div class="row">
+                              <div class="col-12 col-md-5">
+                                    <img src="images/contact_us_check.png" alt="" class="aboutImage">
+                              </div>
+                              <div class="col-12 col-md-7 align-self-center" >
+                                    <form id="contact-form" class="card-mentor formComponent">
+                                    <div class="input-group input-group-lg mb-3">
+                                          <div class="input-group-prepend">
+                                                <span class="input-group-text">
+                                                <i class="fas fa-user"></i>
+                                                </span>
+                                          </div>
+                                          <input type="text" class="form-control" placeholder="Name" name="name" id="Username" required>
+                                    </div>
+                                    <div class="input-group input-group-lg mb-3">
+                                          <div class="input-group-prepend">
+                                                <span class="input-group-text">
+                                                <i class="fas fa-envelope"></i>
+                                                </span>
+                                          </div>
+                                          <input name="email" type="text" class="form-control" col="5" placeholder="Email Address" id="Useremail" required>
+                                    </div>
+                                    <div class="input-group input-group-lg mb-3">
+                                          <div class="input-group-prepend">
+                                                <span class="input-group-text">
+                                                <i class="fas fa-pencil-alt"></i>
+                                                </span>
+                                          </div>
+                                          <textarea class="form-control" placeholder="Message" id="message" name="message" rows="5" required></textarea>
+                                    </div>
+                                    
+                                    <input type="submit" class="btn btn-success btn-block btn-lg" name="submit" value="Submit" id="submit">
+                                    </form>
+                              </div>
                         </div>
                   </div>
             </div>
@@ -276,7 +281,7 @@
                   var windowBottom= $(this).scrollTop() + $(this).innerHeight();
                   $(".fade").each(function() {
                         /* Check the location of each desired element */
-                        var objectTop = $(this).offset().top+$(this).outerHeight()/10;
+                        var objectTop = $(this).offset().top+$(this).outerHeight()/8;
                         /* If the element is completely within bounds of the window, fade it in */
                         if (objectTop < windowBottom) { //object comes into view (scrolling down)
                         if (objectTop < windowBottom) { //object comes into view (scrolling down)
