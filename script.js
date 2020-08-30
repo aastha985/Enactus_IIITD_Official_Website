@@ -3,7 +3,7 @@ $(window).on("load",function() {
 		  var windowBottom= $(this).scrollTop() + $(this).innerHeight();
 		  $(".fade").each(function() {
 				/* Check the location of each desired element */
-				var objectTop = $(this).offset().top+$(this).outerHeight()/8;
+				var objectTop = $(this).offset().top+$(this).outerHeight()/10;
 				/* If the element is completely within bounds of the window, fade it in */
 				if (objectTop < windowBottom) { //object comes into view (scrolling down)
 				if (objectTop < windowBottom) { //object comes into view (scrolling down)
@@ -13,7 +13,7 @@ $(window).on("load",function() {
 				}
 		  }
 		  });
-		  if($(this).scrollTop()>$(this).innerHeight()-50){
+		  if($(this).scrollTop()>$(this).innerHeight()-70){
 				$(".navbar").css("background-color","rgb(50,50,50)");
 				$(".navbar-brand .img-fluid").css("max-height","55px");
 		  }
