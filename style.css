@@ -35,7 +35,8 @@
     font-size: 2rem;
 }
 #footerBorder {
-    margin: 0% !important;
+    margin-left: -36% !important;
+    margin-right: -35.6% !important;
 }
 #contact-form{
     width:80%;
@@ -129,7 +130,13 @@
     border-radius: 5%;
     margin-top:3%;
 }
-
+.profileLinks {
+    padding-left: 2%;
+    padding-right: 2%;
+}
+.profileLinks:hover {
+    color: gray;
+}
 
 /* styling of tags in general begins here */
 p{
