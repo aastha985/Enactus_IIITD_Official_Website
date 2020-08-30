@@ -18,6 +18,7 @@
 }
 #contactSection {
     padding: 7% 5%;
+    background-color: #f7f7f7;
 
 }
 #mainHead{
@@ -117,6 +118,10 @@
     margin: 0 auto;
     padding: 2%;
     padding-top: 4%;
+    background-color:white;
+    box-shadow:2% 2% rgb(109, 106, 106);
+    border-radius: 5%;
+    margin-top:3%;
 }
 
 
