@@ -79,7 +79,8 @@
 }
 .navbar-brand .img-fluid{
     width:auto;
-    max-height:50px;
+    max-height:80px;
+    transition: 400ms;
 }
 .card-img-top-custom{
     height:10rem;
@@ -120,8 +121,7 @@
 }
 .formComponent {
     margin: 0 auto;
-    padding: 2%;
-    padding-top: 4%;
+    padding: 4%;
     background-color:white;
     box-shadow: 2px 2px rgb(150, 147, 147);
     border-radius: 5%;

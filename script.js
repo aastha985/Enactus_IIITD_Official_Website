@@ -15,9 +15,11 @@ $(window).on("load",function() {
 		  });
 		  if($(this).scrollTop()>$(this).innerHeight()-50){
 				$(".navbar").css("background-color","rgb(50,50,50)");
+				$(".navbar-brand .img-fluid").css("max-height","55px");
 		  }
 		  else{
 				$(".navbar").css("background-color","rgba(0,0,0,0)");
+				$(".navbar-brand .img-fluid").css("max-height","80px");
 		  }
 	}).scroll(); //invoke scroll-handler on page-load
 	});
