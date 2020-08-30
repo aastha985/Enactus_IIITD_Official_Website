@@ -1,3 +1,12 @@
+::-webkit-scrollbar {
+    width: 10px; }
+  
+  ::-webkit-scrollbar-track {
+    background: #f1f1f1; }
+  
+  ::-webkit-scrollbar-thumb {
+    background: #ffc300 }
+
 /* styling ids should be done here */
 #dataSection{
     padding:10% 5%;
@@ -110,6 +119,7 @@
     background-repeat: no-repeat;
     padding:0;
     background-position:center;
+    border-radius: 0;
 }
 .gradient-div{
     background-color: rgba(0, 0, 0, 0.4);
