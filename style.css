@@ -18,7 +18,7 @@
 }
 #contactSection {
     padding: 7% 5%;
-    background-color: #f0eded;
+    background-color: #eeeeee;
 
 }
 #mainHead{
@@ -43,8 +43,7 @@
 
 /* styling of classes starts here */
 .aboutImage{
-    width:80%;
-    margin:auto;
+    width: 80%;
 }
 .sidenav {
     height: 15%; 
