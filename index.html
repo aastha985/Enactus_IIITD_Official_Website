@@ -12,6 +12,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Nunito&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Strait&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.9.0/css/all.css" integrity="sha384-i1LQnF23gykqWXg6jxC2ZbCbUMxyw5gLZY6UiUS98LYV5unm8GWmfkIS6jqJfb4E" crossorigin="anonymous">
     
     
     <!-- Font Awesome -->
@@ -42,7 +43,7 @@
                     <a class="nav-link px-3" href="#sponsorSection">Sponsors<span class="sr-only">(current)</span></a>
               </li>
               <li class="nav-item active">
-                    <a class="nav-link px-3" href="#email-us">Contact Us<span class="sr-only">(current)</span></a>
+                    <a class="nav-link px-3" href="#contactSection">Contact Us<span class="sr-only">(current)</span></a>
               </li> 
           </ul>
         </div>
@@ -93,7 +94,7 @@
                               <div>
                                     <img src="images/mitra.jpg" class="card-img-top-custom" alt="...">
                                     <div class="card-body-custom">
-                                          <h5 class="card-title-custom">Project Mitra</h5>
+                                          <h5 class="card-title-custom">Project Calling</h5>
                                           <p class="card-text-custom"></p>
                                           <!-- <a href="#" class="btn btn-outline-primary">Go somewhere</a> -->
                                     </div>
@@ -193,7 +194,74 @@
                         </div>
                         </div>
                   </div>
+                  <!-- Contact Section -->
+                  <div id="contactSection" class="fade">
+                        <h2>We're happy to hear from you</h2>
+                        <div class="sectionBorder"></div>
+                        <div class="col-lg-12" >
+                              <form id="contact-form" class=" w-50 card-mentor formComponent">
+                                  <div class="input-group input-group-lg mb-3">
+                                      <div class="input-group-prepend">
+                                          <span class="input-group-text">
+                                              <i class="fas fa-user"></i>
+                                          </span>
+                                      </div>
+                                      <input type="text" class="form-control" placeholder="Name" name="name" id="Username" required>
+                                  </div>
+                                  <div class="input-group input-group-lg mb-3">
+                                      <div class="input-group-prepend">
+                                          <span class="input-group-text">
+                                              <i class="fas fa-envelope"></i>
+                                          </span>
+                                      </div>
+                                      <input name="email" type="text" class="form-control" col="5" placeholder="Email Address" id="Useremail" required>
+                                  </div>
+                                  <div class="input-group input-group-lg mb-3">
+                                      <div class="input-group-prepend">
+                                          <span class="input-group-text">
+                                              <i class="fas fa-pencil-alt"></i>
+                                          </span>
+                                      </div>
+                                      <textarea class="form-control" placeholder="Message" id="message" name="message" rows="5" required></textarea>
+                                  </div>
+                                  
+                                  <input type="submit" class="btn btn-success btn-block btn-lg" name="submit" value="Submit" id="submit">
+                              </form>
+                        </div>
+                  </div>
             </div>
+
+            <footer id="footer" class="for-footer bg-dark"
+                  <div class="container">
+                        <div class="sectionBorder" id ="footerBorder"></div>>
+                      <div class="row">
+                          <div class="col text-center py-4">
+                              <h5 class="text-light pt-4">Copyright</h5>
+                          </div>
+                      </div>
+                  </div>
+                  
+                  <div class="container last">
+                      <div class="row">
+                          <div class="col-sm text-center">
+                              <img src="./main/css/img/fb1.png" alt="" class="contact">
+                              <h2 class = "title text-light">Name</h2>
+                              <p style="color: #FFC222;">Connect on Facebook</p>
+                              <p style="color: #fff;">Facebook link here</p>
+                              <!-- <i class="fa fa-facebook-square" style="color: white"></i> -->
+                          </div>
+                          
+                          <div class="col-sm text-center">
+                               <img src="./main/css/img/call.svg" alt="" class="contact">
+                              <h2 style="color: #fff;" class = "title">Name</h2>
+                              <p style="color: #FFC222;">Feel free to call us</p>
+                              <p style="color: #fff;">Phone number here</p>
+                          </div>
+                          
+                      </div>
+                  </div>
+                  
+          </footer>
                   
                   <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->

@@ -16,6 +16,10 @@
     color:white;
     background:url("https://images.unsplash.com/photo-1523112784166-c04db3a3bb7c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60");
 }
+#contactSection {
+    padding: 7% 5%;
+
+}
 #mainHead{
     font-size:4rem;
     margin-top:15%;
@@ -30,6 +34,9 @@
 #aboutImage{
     width:80%;
     margin:auto;
+}
+#footerBorder {
+    margin: 0% !important;
 }
 
 
@@ -105,6 +112,11 @@
 }
 .d-flex{
     flex-wrap: wrap;
+}
+.formComponent {
+    margin: 0 auto;
+    padding: 2%;
+    padding-top: 4%;
 }
 
 
